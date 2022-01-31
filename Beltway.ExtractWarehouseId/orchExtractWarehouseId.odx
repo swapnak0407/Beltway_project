@@ -1,0 +1,177 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="cff35739-5c01-4c3e-8cf4-9b062063b871" LowerBound="1.1" HigherBound="38.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="Beltway.ExtractWarehouseId" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="PortType" OID="b1df8b98-c3af-4270-a163-c1cce9b78723" ParentLink="Module_PortType" LowerBound="4.1" HigherBound="11.1">
+            <om:Property Name="Synchronous" Value="True" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_SQL_ExtractWarehouseid" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="e178acac-2ee6-476f-b825-230493c0b1eb" ParentLink="PortType_OperationDeclaration" LowerBound="6.1" HigherBound="10.1">
+                <om:Property Name="OperationType" Value="RequestResponse" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="12460e3e-b153-4eec-ad14-838a99236d59" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="8.13" HigherBound="8.52">
+                    <om:Property Name="Ref" Value="Beltway.ExtractWarehouseId.TypedProcedure_dbo.spExtractWarehouseid" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+                <om:Element Type="MessageRef" OID="4a2b1680-8c76-47d7-a431-5dfcf746f1c9" ParentLink="OperationDeclaration_ResponseMessageRef" LowerBound="8.54" HigherBound="8.101">
+                    <om:Property Name="Ref" Value="Beltway.ExtractWarehouseId.TypedProcedure_dbo.spExtractWarehouseidResponse" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Response" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="ServiceDeclaration" OID="fde8b863-f8b0-4ad7-9451-dc0eb9c24c9c" ParentLink="Module_ServiceDeclaration" LowerBound="11.1" HigherBound="37.1">
+            <om:Property Name="InitializedTransactionType" Value="True" />
+            <om:Property Name="IsInvokable" Value="True" />
+            <om:Property Name="TypeModifier" Value="Public" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="orchExtractWarehouseId" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="LongRunningTransaction" OID="3d5d9515-ae0a-4c28-8951-862efd1fe1f4" ParentLink="ServiceDeclaration_Transaction" LowerBound="12.19" HigherBound="12.66">
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Transaction_ExtractWarehouseid" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="fee5a631-dad5-4ae6-8def-8da62b840767" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="16.1" HigherBound="17.1">
+                <om:Property Name="Type" Value="Beltway.ExtractWarehouseId.TypedProcedure_dbo.spExtractWarehouseidResponse" />
+                <om:Property Name="ParamDirection" Value="Out" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="msgExtractWarehouseidResponse" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="3527059a-98aa-42cd-8149-672d01368146" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="17.1" HigherBound="18.1">
+                <om:Property Name="Type" Value="Beltway.ExtractWarehouseId.TypedProcedure_dbo.spExtractWarehouseid" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="msgExtractWarehouseidRequest" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="ServiceBody" OID="72e8b86c-ee2e-45a2-b2f7-2c8f22719789" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="VariableDeclaration" OID="95073097-888b-4fa8-9e09-379ab1513ca8" ParentLink="ServiceBody_Declaration" LowerBound="18.15" HigherBound="18.45">
+                    <om:Property Name="UseDefaultConstructor" Value="False" />
+                    <om:Property Name="Type" Value="System.String" />
+                    <om:Property Name="ParamDirection" Value="In" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="strWarehouseName" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="VariableDeclaration" OID="013e0934-2279-483a-a857-76d87eec12d0" ParentLink="ServiceBody_Declaration" LowerBound="18.47" HigherBound="18.79">
+                    <om:Property Name="UseDefaultConstructor" Value="False" />
+                    <om:Property Name="Type" Value="System.String" />
+                    <om:Property Name="ParamDirection" Value="Out" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="strWarehouseid" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="Construct" OID="ed000765-e03b-4948-8ab5-7e5145827993" ParentLink="ServiceBody_Statement" LowerBound="20.1" HigherBound="28.1">
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="msgExtractWarehouseidRequest" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="MessageAssignment" OID="efef0d58-367f-4a54-aa2d-6ee57c9297b3" ParentLink="ComplexStatement_Statement" LowerBound="23.1" HigherBound="27.1">
+                        <om:Property Name="Expression" Value="msgExtractWarehouseidRequest = new System.Xml.XmlDocument();&#xD;&#xA;msgExtractWarehouseidRequest.WarehouseName = strWarehouseName;&#xD;&#xA;System.Diagnostics.Debug.WriteLine(&quot;CALL_ORCH_strWarehouseName&quot;,strWarehouseName);" />
+                        <om:Property Name="ReportToAnalyst" Value="False" />
+                        <om:Property Name="Name" Value="MessageAssignment_1" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="MessageRef" OID="d024c3e3-9fcc-4883-a2b4-b432800331cd" ParentLink="Construct_MessageRef" LowerBound="21.23" HigherBound="21.51">
+                        <om:Property Name="Ref" Value="msgExtractWarehouseidRequest" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Signal" Value="False" />
+                    </om:Element>
+                </om:Element>
+                <om:Element Type="Send" OID="92bc92b9-f58a-4c8c-9fea-8af38e5a3938" ParentLink="ServiceBody_Statement" LowerBound="28.1" HigherBound="30.1">
+                    <om:Property Name="PortName" Value="Port_SQL_ExtractWarehouseid" />
+                    <om:Property Name="MessageName" Value="msgExtractWarehouseidRequest" />
+                    <om:Property Name="OperationName" Value="Operation_1" />
+                    <om:Property Name="OperationMessageName" Value="Request" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="reqWarehouseid" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="Receive" OID="663f2aa7-df21-45f8-8add-917bbaa8b2b4" ParentLink="ServiceBody_Statement" LowerBound="30.1" HigherBound="32.1">
+                    <om:Property Name="Activate" Value="False" />
+                    <om:Property Name="PortName" Value="Port_SQL_ExtractWarehouseid" />
+                    <om:Property Name="MessageName" Value="msgExtractWarehouseidResponse" />
+                    <om:Property Name="OperationName" Value="Operation_1" />
+                    <om:Property Name="OperationMessageName" Value="Response" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="rcvWarehouseId" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="VariableAssignment" OID="4dd77fef-d4b1-450f-8913-7736728dd164" ParentLink="ServiceBody_Statement" LowerBound="32.1" HigherBound="35.1">
+                    <om:Property Name="Expression" Value="strWarehouseid = xpath(msgExtractWarehouseidResponse,&quot;string(/*[local-name()='spExtractWarehouseidResponse' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/dbo']/*[local-name()='StoredProcedureResultSet0' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/dbo']/*[local-name()='StoredProcedureResultSet0' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/ProceduresResultSets/dbo/spExtractWarehouseid']/*[local-name()='WarehouseId' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/ProceduresResultSets/dbo/spExtractWarehouseid'])&quot;);&#xD;&#xA;System.Diagnostics.EventLog.WriteEntry(&quot;strWarehouseid&quot;,strWarehouseid);" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="strWarehouseid" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="63b63379-3896-4f15-a13d-09deb5d2dea6" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="14.1" HigherBound="16.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Right" />
+                <om:Property Name="PortIndex" Value="15" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="Beltway.ExtractWarehouseId.PortType_SQL_ExtractWarehouseid" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Port_SQL_ExtractWarehouseid" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="a0e42e7b-51ab-44b7-9e49-b15bb566d188" ParentLink="PortDeclaration_CLRAttribute" LowerBound="14.1" HigherBound="15.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module Beltway.ExtractWarehouseId
+{
+    internal porttype PortType_SQL_ExtractWarehouseid
+    {
+        requestresponse Operation_1
+        {
+            TypedProcedure_dbo.spExtractWarehouseid, TypedProcedure_dbo.spExtractWarehouseidResponse
+        };
+    };
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    public service longrunning transaction orchExtractWarehouseId
+    {
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses PortType_SQL_ExtractWarehouseid Port_SQL_ExtractWarehouseid;
+        message TypedProcedure_dbo.spExtractWarehouseidResponse msgExtractWarehouseidResponse;
+        message TypedProcedure_dbo.spExtractWarehouseid msgExtractWarehouseidRequest;
+        body (System.String strWarehouseName, out System.String strWarehouseid)
+        {
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("ed000765-e03b-4948-8ab5-7e5145827993")]
+            construct msgExtractWarehouseidRequest
+            {
+                [Microsoft.XLANGs.BaseTypes.DesignerPosition("efef0d58-367f-4a54-aa2d-6ee57c9297b3")]
+                msgExtractWarehouseidRequest = new System.Xml.XmlDocument();
+                msgExtractWarehouseidRequest.WarehouseName = strWarehouseName;
+                System.Diagnostics.Debug.WriteLine("CALL_ORCH_strWarehouseName",strWarehouseName);
+            }
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("92bc92b9-f58a-4c8c-9fea-8af38e5a3938")]
+            send (Port_SQL_ExtractWarehouseid.Operation_1, msgExtractWarehouseidRequest);
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("663f2aa7-df21-45f8-8add-917bbaa8b2b4")]
+            receive (Port_SQL_ExtractWarehouseid.Operation_1, msgExtractWarehouseidResponse);
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("4dd77fef-d4b1-450f-8913-7736728dd164")]
+            strWarehouseid = xpath(msgExtractWarehouseidResponse,"string(/*[local-name()='spExtractWarehouseidResponse' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/dbo']/*[local-name()='StoredProcedureResultSet0' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/TypedProcedures/dbo']/*[local-name()='StoredProcedureResultSet0' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/ProceduresResultSets/dbo/spExtractWarehouseid']/*[local-name()='WarehouseId' and namespace-uri()='http://schemas.microsoft.com/Sql/2008/05/ProceduresResultSets/dbo/spExtractWarehouseid'])");
+            System.Diagnostics.EventLog.WriteEntry("strWarehouseid",strWarehouseid);
+        }
+    }
+}
+

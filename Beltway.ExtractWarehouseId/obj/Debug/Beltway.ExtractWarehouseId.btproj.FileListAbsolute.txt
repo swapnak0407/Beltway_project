@@ -1,0 +1,4 @@
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway.ExtractWarehouseId\bin\Debug\Beltway.ExtractWarehouseId.dll
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway.ExtractWarehouseId\bin\Debug\Beltway.ExtractWarehouseId.pdb
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway.ExtractWarehouseId\obj\Debug\Beltway.ExtractWarehouseId.dll
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway.ExtractWarehouseId\obj\Debug\Beltway.ExtractWarehouseId.pdb
