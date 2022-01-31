@@ -1,0 +1,4 @@
+C:\Users\redde_ng_user1\documents\visual studio 2015\Projects\Beltway_integrate\Beltway_integrate\bin\Debug\Beltway.Headoffice.StockUpdate.dll
+C:\Users\redde_ng_user1\documents\visual studio 2015\Projects\Beltway_integrate\Beltway_integrate\bin\Debug\Beltway.Headoffice.StockUpdate.pdb
+C:\Users\redde_ng_user1\documents\visual studio 2015\Projects\Beltway_integrate\Beltway_integrate\obj\Debug\Beltway.Headoffice.StockUpdate.dll
+C:\Users\redde_ng_user1\documents\visual studio 2015\Projects\Beltway_integrate\Beltway_integrate\obj\Debug\Beltway.Headoffice.StockUpdate.pdb

@@ -1,0 +1,4 @@
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway_integrate\bin\Debug\Beltway.Skegness.CentralSystemUpdate.dll
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway_integrate\bin\Debug\Beltway.Skegness.CentralSystemUpdate.pdb
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway_integrate\obj\Debug\Beltway.Skegness.CentralSystemUpdate.dll
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway_integrate\obj\Debug\Beltway.Skegness.CentralSystemUpdate.pdb

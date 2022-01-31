@@ -1,0 +1,5 @@
+C:\Users\redde_ng_user1\documents\visual studio 2015\Projects\Beltway_integrate\Beltway.Tanzania.StockUpdate\bin\Debug\Beltway.Tanzania.StockUpdate.dll
+C:\Users\redde_ng_user1\documents\visual studio 2015\Projects\Beltway_integrate\Beltway.Tanzania.StockUpdate\bin\Debug\Beltway.Tanzania.StockUpdate.pdb
+C:\Users\redde_ng_user1\documents\visual studio 2015\Projects\Beltway_integrate\Beltway.Tanzania.StockUpdate\obj\Debug\Beltway.Tanzania.StockUpdate.dll
+C:\Users\redde_ng_user1\documents\visual studio 2015\Projects\Beltway_integrate\Beltway.Tanzania.StockUpdate\obj\Debug\Beltway.Tanzania.StockUpdate.pdb
+C:\Users\redde_ng_user1\documents\visual studio 2015\Projects\Beltway_integrate\Beltway.Tanzania.StockUpdate\bin\Debug\Beltway.Headoffice.StockUpdate.dll

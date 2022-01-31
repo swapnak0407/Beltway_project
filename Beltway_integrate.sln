@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beltway.Headoffice.StockUpdate", "Beltway_integrate\Beltway.Headoffice.StockUpdate.btproj", "{5A914415-F16E-4296-BB85-FF2FB1C071E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beltway.Tanzania.StockUpdate", "Beltway.Tanzania.StockUpdate\Beltway.Tanzania.StockUpdate.btproj", "{7165147B-E174-4423-B386-19544A276DA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beltway.Malawi.StockUpdate", "Beltway.Malawi.StockUpdate\Beltway.Malawi.StockUpdate.btproj", "{9D65572F-64F1-4EF1-A0FF-AA6CE0E8317B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beltway.NotifyOvercommittedStock", "Beltway.NotifyOvercommittedStock\Beltway.NotifyOvercommittedStock.btproj", "{15AC23D1-8DFE-4A82-85D0-646E7208305B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A914415-F16E-4296-BB85-FF2FB1C071E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A914415-F16E-4296-BB85-FF2FB1C071E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A914415-F16E-4296-BB85-FF2FB1C071E3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5A914415-F16E-4296-BB85-FF2FB1C071E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A914415-F16E-4296-BB85-FF2FB1C071E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A914415-F16E-4296-BB85-FF2FB1C071E3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7165147B-E174-4423-B386-19544A276DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7165147B-E174-4423-B386-19544A276DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7165147B-E174-4423-B386-19544A276DA8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7165147B-E174-4423-B386-19544A276DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7165147B-E174-4423-B386-19544A276DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7165147B-E174-4423-B386-19544A276DA8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9D65572F-64F1-4EF1-A0FF-AA6CE0E8317B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D65572F-64F1-4EF1-A0FF-AA6CE0E8317B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D65572F-64F1-4EF1-A0FF-AA6CE0E8317B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9D65572F-64F1-4EF1-A0FF-AA6CE0E8317B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D65572F-64F1-4EF1-A0FF-AA6CE0E8317B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D65572F-64F1-4EF1-A0FF-AA6CE0E8317B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{15AC23D1-8DFE-4A82-85D0-646E7208305B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AC23D1-8DFE-4A82-85D0-646E7208305B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AC23D1-8DFE-4A82-85D0-646E7208305B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{15AC23D1-8DFE-4A82-85D0-646E7208305B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AC23D1-8DFE-4A82-85D0-646E7208305B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AC23D1-8DFE-4A82-85D0-646E7208305B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
