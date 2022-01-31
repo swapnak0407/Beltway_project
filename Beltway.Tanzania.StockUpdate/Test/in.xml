@@ -1,0 +1,18 @@
+<TanzaniaStockupdate xmlns="http://Beltway.Tanzania.StockUpdate.TanzaniaStockupdate_FF">
+  <StockDetails xmlns="">
+    <ProductCode>Date</ProductCode>
+    <Qty>31/12/2010</Qty>
+  </StockDetails>
+  <StockDetails xmlns="">
+    <ProductCode>AAA</ProductCode>
+    <Qty>100</Qty>
+  </StockDetails>
+  <StockDetails xmlns="">
+    <ProductCode>ABC</ProductCode>
+    <Qty>350</Qty>
+  </StockDetails>
+  <StockDetails xmlns="">
+    <ProductCode>EEE</ProductCode>
+    <Qty>5016</Qty>
+  </StockDetails>
+</TanzaniaStockupdate>

@@ -1,0 +1,4 @@
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway.NotifyOvercommittedStock\bin\Debug\Beltway.NotifyOvercommittedStock.dll
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway.NotifyOvercommittedStock\bin\Debug\Beltway.NotifyOvercommittedStock.pdb
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway.NotifyOvercommittedStock\obj\Debug\Beltway.NotifyOvercommittedStock.dll
+C:\Users\redde_ng_user1\Documents\Visual Studio 2015\Projects\Beltway_integrate\Beltway.NotifyOvercommittedStock\obj\Debug\Beltway.NotifyOvercommittedStock.pdb
